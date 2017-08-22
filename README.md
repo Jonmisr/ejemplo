@@ -7,21 +7,27 @@ El * y + son mensajes
 
 object pepita{
        var energia = 100
+       
        method comer(gramosAlpiste){
        energia = energia + 2 * gramosAlpiste}
        
        method volar(kms){
-       energia = energia - kms/10}}
+       energia = energia - kms/10}
+                                  }
        
 object pepo{
        var energia = 120
+       
        method comer(gramosAlpiste){
-       energia = energia + 10 * gramosAlpiste}}
+       energia = energia + 10 * gramosAlpiste}
+                                              }
        
 object boing747{
        var nafta = 0
+       
        method volar(kms){
        nafta = nafta - (kms / 1030)}
        
        method cargar(litros){
-       nafta = nafta + litros}}
+       nafta = nafta + litros}
+                                    }
